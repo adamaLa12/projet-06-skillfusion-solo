@@ -11,74 +11,49 @@
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-
-    <title>Administration</title>
+    <title>Inscription</title>
 </head>
 
 <body>
-
     <div class="wrapper">
         <header>
-            <nav>
-                <div class="menu-icon">
-                    <i class="fa fa-bars fa-2x"></i>
-                </div>
-                <!--  <div class="logo">
-                    LOGO
-                </div> -->
-                <a class="navbar-brand" href="#">
-                    <img src="./img/logo.jpeg" alt="logo" style="width:120px;">
-                </a>
-                <div class="menu">
 
+            <section style="height: 100vh;">
+                <div
+                    style="background-image: url(images/arka.jpg); background-attachment: fixed; background-size: cover; width: 100%; height: 100vh; position: relative;">
+                    <div class="baslik">
+                        <b style="font-size: 101px; text-align: center; margin-bottom: -21px; display: block;"></b>
+                        <span style="font-size: 19px; text-align: center; display: block; margin-bottom: 25px;">
 
-                    <ul>
-                        <li><a href="index.html">Accueil</a></li>
-                        <li><a href="connexion.html">Connexion</a></li>
-                        <li><a href="inscription.html">Inscription</a></li>
-                        <li><a href="cours.html">Cours</a></li>
-                        <li><a href="admin.html">Admin</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
-        <section style="height: 100vh;">
-            <div
-                style="background-image: url(images/arka.jpg); background-attachment: fixed; background-size: cover; width: 100%; height: 100vh; position: relative;">
-                <div class="baslik">
-                    <b style="font-size: 101px; text-align: center; margin-bottom: -21px; display: block;"></b>
-                    <span style="font-size: 19px; text-align: center; display: block; margin-bottom: 25px;">
+                    </div>
+                    <section>
+                        <form method="post" action="">
+                            <div class="arkalogin">
+                                <div class="loginbaslik">Admin Login</div>
+                                <hr style="border: 1px solid #ccc;">
 
-                </div>
-                <section>
-                    <form method="post" action="">
-                        <div class="arkalogin">
-                            <div class="loginbaslik">Admin Login</div>
-                            <hr style="border: 1px solid #ccc;">
-
-                            <!-- Amélioration de l'accessibilité : attributs aria-label 
+                                <!-- Amélioration de l'accessibilité : attributs aria-label 
                                 aux éléments de formulaire pour  aider les utilisateurs de lecteurs d'écran. -->
 
-                            <input class="giris" type="text" name="kadi" placeholder="User"
-                                aria-label="Nom d'utilisateur">
-                            <input class="giris" type="password" name="sifre" placeholder="•••••"
-                                aria-label="Mot de passe">
-                            <a href="" target="blank">
-                                <input class="butonlogin" type="submit" name="" value="Se connecter"></a>
-                        </div>
-                    </form>
+                                <input class="giris" type="text" name="kadi" placeholder="User"
+                                    aria-label="Nom d'utilisateur">
+                                <input class="giris" type="password" name="sifre" placeholder="•••••"
+                                    aria-label="Mot de passe">
+                                <a href="" target="blank">
+                                    <input class="butonlogin" type="submit" name="" value="Se connecter"></a>
+                            </div>
+                        </form>
+        </header>
 
-
-                </section><br>
-                <span style="font-size: 23px; text-align: center; display: block; color: #E6E6E6;
-        ">Welcome To The Admin Panel</span>
-                <span style="font-size: 24px; text-align: center; display: block; color: #fff; font-weight: bold; margin-bottom: 34px;
+        </section><br>
+        <span style="font-size: 23px; text-align: center; display: block; color: #E6E6E6;
+        ">Bienvenue sur le panel Admin</span>
+        <span style="font-size: 24px; text-align: center; justify-content: center; display: block; color: #fff; font-weight: bold; margin-bottom: 34px;
         "></span>
-                <span style="font-size: 17px; text-align: center; display: block; color: #fff;
+        <span style="font-size: 17px; text-align: center; justify-content: center; display:  block; color: #fff;
         "></span>
-            </div>
-        </section>
+    </div>
+    </section>
 </body>
 
 </html>
