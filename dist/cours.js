@@ -1,0 +1,1 @@
+(()=>{"use strict";$(document).ready((function(){$(".menu-icon").on("click",(function(){$("nav ul").toggleClass("showing")}))})),$(window).on("scroll",(function(){$(window).scrollTop()?$("nav").addClass("black"):$("nav").removeClass("black")}))})();
